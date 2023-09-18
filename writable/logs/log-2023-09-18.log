@@ -1,0 +1,14 @@
+CRITICAL - 2023-09-18 06:32:03 --> Undefined constant "App\Models\StudentModel"
+in APPPATH\Controllers\StudentController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\StudentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\tesTci4\\public\\index.php')
+CRITICAL - 2023-09-18 06:33:20 --> Undefined constant "App\Models\StudentModel"
+in APPPATH\Controllers\StudentController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\StudentController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\tesTci4\\public\\index.php')

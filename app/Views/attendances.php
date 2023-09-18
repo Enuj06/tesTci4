@@ -6,6 +6,6 @@
     <title></title>
 </head>
 <body>
-    <h1> Department Attendance</h1>
+    <h1 style= "text-align: center "> Department Attendance</h1>
 </body>
 </html>

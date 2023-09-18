@@ -3,12 +3,16 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-
+use App\Models\StudentModel;
 class StudentController extends BaseController
 {
-    public function attendance($product)
+    private $attendances;
+    public function __construct(){
+        $this->attendances = \App\Models\StudentModel;
+    }
+    public function attendance($attendance)
     {
-        echo $product;
+        echo $attendance;
     }
     
     public function Enuj06()
