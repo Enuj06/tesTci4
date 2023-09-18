@@ -8,7 +8,7 @@ class StudentController extends BaseController
 {
     private $attendances;
     public function __construct(){
-        $this->attendances = \App\Models\StudentModel;
+        $this->attendances = \App\Models\StudentModel();
     }
     public function attendance($attendance)
     {
